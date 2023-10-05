@@ -1,0 +1,253 @@
+h1 {
+    text-align: center;
+}
+
+.nav-box {
+    display: inline;
+    margin: 20px;
+}
+
+.nav-box:hover {
+    background-color: yellowgreen;
+}
+
+.img-size {
+    width: 50px;
+    height: 50px;
+}
+
+#wap {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 1211px;
+}
+
+
+#nav-bar {
+    margin-left: 135px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: solid greenyellow;
+    background-color: bisque;
+    width: 1015px;
+    height: 61px;
+    border-radius: 54px;
+    position: sticky;
+    top: 0;
+}
+
+
+
+/* DropDown Functionalities */
+a:visited {
+    color: gray;
+}
+
+/* DropDown properties */
+ul {
+    padding: 0;
+}
+
+/* Anime content properties */
+.anime-content {
+    width: 118px;
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 95px;
+
+}
+
+#anime-arrow {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    left: 172px;
+}
+
+.anime-content li {
+    padding: 12px 16px;
+}
+
+.anime-content li:hover {
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdown:hover .anime-content {
+    display: block;
+}
+
+/* Drama content properties */
+.drama-content {
+    width: 176px;
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 213px;
+
+}
+
+#drama-arrow {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    left: 377px;
+}
+
+.drama-content li {
+    padding: 12px 16px;
+}
+
+.drama-content li:hover {
+    background-color: white;
+}
+
+.dropdown:hover .drama-content {
+    display: block;
+}
+
+/* Hollywood content properties */
+.hollywood-content {
+    width: 118px;
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 407px;
+}
+
+#holly-arrow {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    left: 511px;
+}
+
+.hollywood-content li {
+    padding: 12px 16px;
+}
+
+.hollywood-content li:hover {
+    background-color: white;
+}
+
+.dropdown:hover .hollywood-content {
+    display: block;
+}
+
+/* TV content properties */
+.tv-content {
+    width: 204px;
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 496px;
+
+}
+
+#tv-arrow {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    left: 641px;
+}
+
+.tv-content li {
+    padding: 12px 16px;
+}
+
+.tv-content li:hover {
+    background-color: white;
+}
+
+.dropdown:hover .tv-content {
+    display: block;
+}
+
+/* Animation content properties */
+.animation-content {
+    width: 154px;
+    display: none;
+    background-color: #292929;
+    position: absolute;
+    font-size: 19px;
+    margin-left: 645px;
+
+}
+
+#animation-arrow {
+    width: 20px;
+    position: absolute;
+    top: 23px;
+    left: 772px;
+}
+
+.animation-content li {
+    padding: 12px 16px;
+}
+
+.animation-content li:hover {
+    background-color: white;
+}
+
+.dropdown:hover .animation-content {
+    display: block;
+}
+
+/* Other functionalities */
+
+#hero {
+    margin-left: 38px;
+    width: 1268px;
+    height: 475px;
+}
+
+#serve {
+    margin-left: 265px;
+}
+
+#Contact {
+
+    margin-left: 436px;
+    margin-top: -96px;
+}
+
+#visit:visited {
+    color: black;
+}
+
+#social {
+    margin-left: 852px;
+    margin-top: -114px;
+}
+
+#add {
+    margin-left: 125px;
+}
+
+#footer {
+    background-color: blue;
+    width: 100%;
+}
+
+body {
+
+
+    background-image: url('Assets/25.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
