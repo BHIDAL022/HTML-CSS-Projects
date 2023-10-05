@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount-Form</title>
+    <style>
+        #main-div .box {
+            display: inline-block;
+        }
+
+        .header {
+            display: inline;
+            margin-left: 52px;
+        }
+
+        #line {
+            text-decoration: underline;
+            color: #3DCDA1;
+        }
+
+        #content {
+            padding-left: 40px;
+
+        }
+
+        #form-div {
+            
+            width: 367px;
+            height: 393px;
+            background-color: white;
+        }
+
+        .input-fields {
+            height: 31px;
+            width: 275px;
+
+        }
+
+        .textcolor {
+            color: #3DCDA1;
+        }
+
+        #create-button {
+            margin-left: 81px;
+            padding: 5px;
+            border: none;
+            font-weight: bold;
+            color: white;
+            background-color: #3DCDA1;
+        }
+        #create-button:hover{
+            background-color: pink;
+        }
+
+        #check {
+            color: #3DCDA1;
+        }
+
+        /* Designs for blue box */
+        #blue-box {
+            background-image: url(girl.png);
+            height: 342px;
+            width: 35%;
+            background-repeat: no-repeat;
+            padding-top: 51px;
+            background-size: cover;
+            position: absolute;
+
+        }
+
+        #inside {
+            border: 10px solid #8388e069;
+            height: 213px;
+            width: 238px;
+            margin-left: 106px;
+            text-align: center;
+            color: green;
+
+        }
+        #big-div{
+            margin-left: 236px;
+            margin-top: 56px;
+        }
+        body{
+            background-color: #18CBCE;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="big-div">
+        <div id="main-div">
+            <div id="form-div" class="box">
+                <form action="">
+
+
+                    <h1 class="header" id="line">Sign Up</h1>
+                    <h1 class="header">Sign In</h1><br><br>
+                    <div id="content">
+                        <input type="text" name="user" id="" class="input-fields" placeholder="Name"><br><br>
+                        <input type="email" name="mail" id="" class="input-fields" placeholder="Email Address"><br><br>
+                        <input type="password" name="password" id="" class="input-fields"
+                            placeholder="Password"><br><br>
+                        <input type="password" name="retype" id="" class="input-fields"
+                            placeholder="Confirm Password"><br><br>
+
+                        <input type="checkbox" id="check">
+                        <label for="" class="textcolor">I Agree To All Terms & Conditions</label><br><br>
+                        <input type="button" name="" id="create-button" value="Create Account"><br><br>
+                    </div>
+                </form>
+            </div>
+            <div id="blue-box" class="box">
+                <div id="inside">
+                    <h1>-UPTO-</h1><br>
+                    <h1>50% OFF</h1>
+                    <p>Call and get your Special Discoiunt</p>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
